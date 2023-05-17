@@ -1,0 +1,7 @@
+CREATE TABLE cart_items (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  product_id VARCHAR(50) NOT NULL,
+  product_name VARCHAR(100) NOT NULL,
+  product_price DECIMAL(10, 2) NOT NULL,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
